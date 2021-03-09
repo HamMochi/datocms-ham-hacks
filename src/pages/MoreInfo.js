@@ -5,7 +5,7 @@ const MoreInfo = () => (
   <div>
     <h1>NOT FOUND</h1>
       <li>
-        <Link to="/buttons">Buttons</Link>
+        <Link to="/switches">Buttons</Link>
       </li>
     <p>buttons</p>
   </div>
