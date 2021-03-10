@@ -1,16 +1,7 @@
 import React from 'react'
 import Layout from "../components/layout"
-import {
-  HeaderNavigation,
-  StyledNavigationList,
-  StyledNavigationItem,
-  ALIGN,
-} from "baseui/header-navigation";
-import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
-import { Button, KIND, SIZE } from "baseui/button";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const switches = ({toggleTheme}) => (
+const switches = ({ toggleTheme }) => (
   <Layout>
     <article className="sheet">
       <div className="sheet__body">
@@ -21,15 +12,6 @@ const switches = ({toggleTheme}) => (
         <img src="https://scontent.fsac1-1.fna.fbcdn.net/v/t1.15752-9/158038156_4099060143439362_4723908251725078153_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=ae9488&_nc_ohc=dTAnhkWb33cAX8zoDRh&_nc_ht=scontent.fsac1-1.fna&oh=76745893359c748334164354a4b7f485&oe=606EA809" alt="Closed Switch" />
         <p>As you can see, the connection is broken when the button is in an open state. This means that electricity will not be able to flow through the button. On the other hand, the connection is complete when the button is in a closed state, allowing the electricity to flow.</p>
       </div>
-      <StyledNavigationItem>
-          <Button
-            kind={KIND.minimal}
-            size={SIZE.compact}
-            onClick={toggleTheme}
-          >
-            <FontAwesomeIcon icon={faLightbulb} />
-          </Button>
-        </StyledNavigationItem>
     </article>
   </Layout>
 )
