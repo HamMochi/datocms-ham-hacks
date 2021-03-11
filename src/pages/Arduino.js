@@ -12,9 +12,9 @@ const Arduino = () => (
            Arduinos can interact with other electronic components, such as lights and motors.
            Essentially, they are a piece of both hardware and software that are used to control electronic components and read and write data.
         </p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg" alt="Arduino Uno"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg" alt="Arduino Uno" height="400" width="400"/>
         <p>A typical microcontroller has a power supply input, input and output (I/O) pins (used to connect wires), and LEDs (light emitting diodes) to indicate the condition that the microcontroller is in.</p>
-        <img src="https://www.student-circuit.com/wp-content/uploads/sites/54/2019/03/Arduino-pinout.jpg" alt="Arduino Uno Pinout"/>
+        <img src="https://www.student-circuit.com/wp-content/uploads/sites/54/2019/03/Arduino-pinout.jpg" alt="Arduino Uno Pinout" height="400" width="400"/>
         <h3>What makes the Arduino so popular?</h3>
         <p>There are many different microcontrollers out there, with the Arduino Uno being one of the most popular, since it is relatively inexpensive and it is open source, meaning that its source code is made publicly available.</p>
         <p>Additionally, there are many ways to extend the capabilities of an Arduino (and other microcontrollers).
