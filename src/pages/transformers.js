@@ -8,7 +8,7 @@ const transformers = () => (
       <div className="sheet__body">
         <h2>Electrical Tranformers</h2>
         <p>Transformers are electrical devices that transfer electrical energy. They can be used to both lower and raise voltages.</p>
-        <img src="https://images-ext-2.discordapp.net/external/WAZ-QC-jm0a0B2ssOsIutXgFjhNKDGZqZzfEMt6vY5o/https/lh3.googleusercontent.com/proxy/20UBDxBytPY6WUUecsptXmawo6mClLDj5ScbI-aKbktXL98DXSiV6b_kqEumqwhLzdEmKmNqs5GSaYE1nxZK6HtvJQb1lQRry4ghX2zhr9ps8LXK-ol5xKZdZge6962NTPURHIsGtFfDDfwvCg" alt="Transformer" height="300" width="300"/>
+        <img src="https://media.discordapp.net/attachments/801387755858034699/820227592950513694/transformer.JPG" alt="Transformer" height="300" width="300"/>
         <h3>How they Work</h3>
         <p>They work based on the fact that a magnetic field is generated when fluctuating electric current flows and electric current is generated when a magnetic field fluctuates.
            Inside a transformer there is a primary current coming from one coil of wires and a secondary current coming from another coil of wires.
